@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying article when using these code and data."
+type: software
+title: "Code and data for Optimal Control of Coupled Sensor–Ancilla Qubits for Multiparameter Estimation"
+authors:
+  - family-names: Kanamoto
+    given-names: Ayumi
+  - family-names: Isogawa
+    given-names: Takuya
+  - family-names: Nishimura
+    given-names: Shunsuke
+  - family-names: Yuan
+    given-names: Haidong
+  - family-names: Cappellaro
+    given-names: Paola

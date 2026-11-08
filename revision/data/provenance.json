@@ -1,0 +1,273 @@
+{
+  "upstream": {
+    "url": "https://github.com/Daaolung/multiparam_GRAPE",
+    "commit": "0c245522abe510b1875d9bd5a4dd732826a16d42"
+  },
+  "code_extraction": [
+    {
+      "source": "work/q3-completion/source/audit.py",
+      "source_sha256": "44d0955f3fa62689ec505bed6ed29c0b16922d7cc3da69881748323d85e15e86",
+      "destination": "revision/code/model.py",
+      "selected_definitions": [
+        "PAULI",
+        "BELL",
+        "ROT2",
+        "MEAS",
+        "Model",
+        "CASES",
+        "random_initial"
+      ],
+      "unchanged_function_AST": [
+        "Model",
+        "random_initial"
+      ],
+      "path_or_driver_adaptations": false
+    },
+    {
+      "source": "work/q3-completion/source/exact_check.py",
+      "source_sha256": "123bfe9d50587dc0985e1655eca9aa39412dfcccd6fc7ceb40029cef08f029fa",
+      "destination": "revision/code/exact.py",
+      "selected_definitions": [
+        "exact_metrics"
+      ],
+      "unchanged_function_AST": [
+        "exact_metrics"
+      ],
+      "path_or_driver_adaptations": false
+    },
+    {
+      "source": "work/q3-completion/legacy_runner.py",
+      "source_sha256": "402d018bd79ec1f62671ae4e8fb2e9dbe714d4f2add1b9bf9b2f33e20521a589",
+      "destination": "revision/code/optimizer.py",
+      "selected_definitions": [
+        "clean",
+        "save",
+        "objective",
+        "BudgetStop",
+        "optimize"
+      ],
+      "unchanged_function_AST": [
+        "clean",
+        "save",
+        "objective",
+        "BudgetStop",
+        "optimize"
+      ],
+      "path_or_driver_adaptations": false
+    },
+    {
+      "source": "work/q3-completion/study.py",
+      "source_sha256": "de9dfc949a8dd35c695c3f3ba6b71ad24e8679522a6a0d866ec37690b554966c",
+      "destination": "revision/code/initialization.py",
+      "selected_definitions": [
+        "bound",
+        "refined_path",
+        "refmodel",
+        "reference",
+        "jobs",
+        "tag",
+        "run"
+      ],
+      "unchanged_function_AST": [
+        "bound",
+        "refined_path",
+        "refmodel",
+        "reference",
+        "jobs",
+        "tag",
+        "run"
+      ],
+      "path_or_driver_adaptations": false
+    },
+    {
+      "source": "work/q2-draft/mismatch_study.py",
+      "source_sha256": "093185aa62782b07dd716702f4952e9122a24bf1f830b33315c523968686cc0b",
+      "destination": "revision/code/mismatch.py",
+      "selected_definitions": [
+        "CASES",
+        "nominal",
+        "field",
+        "chain",
+        "state",
+        "metrics",
+        "pulse",
+        "evaluate",
+        "independent_ode"
+      ],
+      "unchanged_function_AST": [
+        "nominal",
+        "field",
+        "chain",
+        "state",
+        "metrics",
+        "evaluate",
+        "independent_ode"
+      ],
+      "path_or_driver_adaptations": true
+    },
+    {
+      "source": "work/q4-check/check.py",
+      "source_sha256": "9b6ca60c3a0143d55d8eae0ca20d38fd0e98ea719218acef78c03e103529a1c0",
+      "destination": "revision/code/propagation.py",
+      "selected_definitions": [
+        "state",
+        "metric",
+        "fisher",
+        "evaluate"
+      ],
+      "unchanged_function_AST": [
+        "state",
+        "metric",
+        "fisher"
+      ],
+      "path_or_driver_adaptations": true
+    },
+    {
+      "source": "work/q4-check/refine_sensitive.py",
+      "source_sha256": "e5bd5c053f21a906011bad6d052cb9e739b8ddd5df71f804631348a7391c2849",
+      "destination": "revision/code/refinement.py",
+      "selected_definitions": [
+        "carry",
+        "chunked_state"
+      ],
+      "unchanged_function_AST": [
+        "carry",
+        "chunked_state"
+      ],
+      "path_or_driver_adaptations": false
+    },
+    {
+      "source": "work/q4-check/ode.py",
+      "source_sha256": "b3f27f9270776447e165e84fe356e26c8c908ce4f559d9ff1d430f531b055024",
+      "destination": "revision/code/independent.py",
+      "selected_definitions": [
+        "run_ode"
+      ],
+      "unchanged_function_AST": [],
+      "path_or_driver_adaptations": true
+    },
+    {
+      "source": "work/q4-check/optimize.py",
+      "source_sha256": "5a58f010ede2583b5c33a4ee3848005cc73279aca0e40eabd65bf0d665b5cf84",
+      "destination": "revision/code/reoptimize.py",
+      "selected_definitions": [
+        "forward",
+        "reverse",
+        "FastModel",
+        "optimize_case"
+      ],
+      "unchanged_function_AST": [
+        "forward",
+        "reverse",
+        "FastModel"
+      ],
+      "path_or_driver_adaptations": true
+    },
+    {
+      "source": "work/referee2-comment2/evaluate_holevo.py",
+      "source_sha256": "2e4e50797d55e84d24bee11833fee0b86b2eb6a1ec053c7c93c045dc24ba5937",
+      "destination": "revision/code/holevo.py",
+      "selected_definitions": [
+        "PAULI",
+        "BELL",
+        "ROT2",
+        "MEAS",
+        "nominal",
+        "field",
+        "chain",
+        "midpoint",
+        "independent_ode",
+        "holevo",
+        "metrics",
+        "selfcheck"
+      ],
+      "unchanged_function_AST": [
+        "nominal",
+        "field",
+        "chain",
+        "midpoint",
+        "independent_ode",
+        "holevo",
+        "metrics",
+        "selfcheck"
+      ],
+      "path_or_driver_adaptations": false
+    },
+    {
+      "source": "outputs/NJP-comparison6-source-check/saved_waveform_audit/audit.py",
+      "source_sha256": "f46829aeddc4252aae66ea30de3f28824fcb09c27b3774799f9f503e1b5a1d22",
+      "destination": "revision/code/legacy_io.py",
+      "selected_definitions": [
+        "MODELS",
+        "original_evaluate",
+        "details",
+        "analytic"
+      ],
+      "unchanged_function_AST": [
+        "original_evaluate",
+        "details",
+        "analytic"
+      ],
+      "path_or_driver_adaptations": false
+    },
+    {
+      "source": "outputs/NJP-referee1-q3-complete/reproduction/independent_check.py",
+      "source_sha256": "314d6c4b431e9c921e91564810675605642d8c40d2fd7a7425c182e98350196d",
+      "destination": "revision/code/initialization_checks.py",
+      "selected_definitions": [
+        "ode_metric"
+      ],
+      "unchanged_function_AST": [
+        "ode_metric"
+      ],
+      "path_or_driver_adaptations": true
+    }
+  ],
+  "input_sources": [
+    {
+      "source": "outputs/NJP-comparison6-source-check/saved_waveform_audit/evaluators/static.py",
+      "sha256": "33e99c69dfeb69e877c4539b37ff78473f3da6fc89696a229510edf39cd01154",
+      "destination": "revision/code/legacy/static.py"
+    },
+    {
+      "source": "outputs/NJP-comparison6-source-check/saved_waveform_audit/evaluators/xz.py",
+      "sha256": "b09b092b25b7c2cd8fd2a5bee19bdf08ab96cda9ccf59662e161e4f7c8e9c1f0",
+      "destination": "revision/code/legacy/xz.py"
+    },
+    {
+      "source": "outputs/NJP-comparison6-source-check/saved_waveform_audit/evaluators/xy.py",
+      "sha256": "4d7b5963f4b1f11ea168f22d27841393abf1df7fb5042412d245102fd8ac00da",
+      "destination": "revision/code/legacy/xy.py"
+    },
+    {
+      "source": "outputs/NJP-comparison6-source-check/saved_waveform_audit/evaluators/linear.py",
+      "sha256": "2c1f82db65432e6ad9e3b7bbb8b47b6e22548b2f6413b205f3db7a50a03c6616",
+      "destination": "revision/code/legacy/linear.py"
+    },
+    {
+      "source": "outputs/NJP-comparison6-source-check/saved_waveform_audit/finite_difference_cached.py",
+      "sha256": "d4736816691227f1fa243cebb5e61279f80bb45d07f7cca5710879d8b865db20",
+      "destination": "revision/code/reuse_gradient.py"
+    },
+    {
+      "source": "outputs/NJP-comparison6-source-check/saved_waveform_audit/literal_update/original_static.py",
+      "sha256": "7396ad92d19c708e7b91107288f53ae032afd2ee3b00e78b5a6c85de5e6d2a8d",
+      "destination": "revision/code/legacy/static.py:literal_step"
+    },
+    {
+      "source": "work/referee2-comment1/verify_static.py",
+      "sha256": "f30d759f462e112f268e2d27e7f5cfce22b2fe3a47e183dae8f09149cdb19280",
+      "destination": "revision/code/coupling.py"
+    },
+    {
+      "source": "outputs/NJP-mismatch-table-to-archive/package/NJP_revision_code_data_2026-11-07/6aeddf35c3326fe88bd027b9/SMF3.pdf",
+      "sha256": "a09d9f9d112d8f3eca6b9a82400fce56c8cc840e9afafc552f1b020ad7fbfccb",
+      "destination": "revision/data/source_figures/fig2_original.pdf"
+    },
+    {
+      "source": "outputs/NJP-mismatch-table-to-archive/package/NJP_revision_code_data_2026-11-07/6aeddf35c3326fe88bd027b9/LPL3.pdf",
+      "sha256": "86819b8fe796a0ea051b5302f0add2e3603e619b6e1b93b3e0d582c3e6ff12c2",
+      "destination": "revision/data/source_figures/fig4_original.pdf"
+    }
+  ]
+}

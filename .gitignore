@@ -1,0 +1,8 @@
+build/
+.venv/
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.ipynb_checkpoints/
+.DS_Store

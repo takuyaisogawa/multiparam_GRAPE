@@ -1,0 +1,96 @@
+{
+  "method": "Independent 4x4 matrix exponential and Frechet derivatives; controls and POVM fixed.",
+  "scope": "Analytical unoptimized-control results for the static field.",
+  "checks": [
+    {
+      "J": 0.0,
+      "T": 8.0,
+      "CFIM_relative_error": 4.440892098500626e-16,
+      "QFIM_relative_error": 2.220446049250313e-16
+    },
+    {
+      "J": 0.01,
+      "T": 10.0,
+      "CFIM_relative_error": 4.138431997211279e-16,
+      "QFIM_relative_error": 3.390380017529382e-16
+    },
+    {
+      "J": 0.1,
+      "T": 2.0,
+      "CFIM_relative_error": 1.762369508918185e-16,
+      "QFIM_relative_error": 1.9400778572975025e-16
+    },
+    {
+      "J": 0.2,
+      "T": 8.0,
+      "CFIM_relative_error": 1.2774949836072007e-16,
+      "QFIM_relative_error": 1.1904411104781422e-16
+    },
+    {
+      "J": 0.5,
+      "T": 3.141592653589793,
+      "CFIM_relative_error": 3.6420261450503874e-16,
+      "QFIM_relative_error": 1.1041620624124822e-16
+    },
+    {
+      "J": 1.0,
+      "T": 2.0,
+      "CFIM_relative_error": 4.469473661084199e-16,
+      "QFIM_relative_error": 1.1302661511010115e-16
+    },
+    {
+      "J": 10.0,
+      "T": 6.0,
+      "CFIM_relative_error": 3.1579678097593492e-15,
+      "QFIM_relative_error": 2.9605947360264632e-15
+    }
+  ],
+  "static_example": {
+    "J": 0.2,
+    "T": 8.0,
+    "B": 1.0,
+    "theta": 0.7853981633974483,
+    "phi": 0.7853981633974483,
+    "F_cartesian": [
+      [
+        0.08518851552259227,
+        -3.469446951953614e-18,
+        4.440892098500626e-16
+      ],
+      [
+        -3.469446951953614e-18,
+        0.08518851552259227,
+        -1.1361463518555848e-14
+      ],
+      [
+        4.440892098500626e-16,
+        -1.1361463518555848e-14,
+        255.99999999999997
+      ]
+    ],
+    "Q_cartesian": [
+      [
+        99.91473878973765,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        99.91473878973765,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        255.99999999999997
+      ]
+    ],
+    "C_fixed_measurement": 35.21992077491935,
+    "C_SLD": 0.03393185019011063,
+    "C_J0": 0.015625,
+    "finite_difference_relative_error": 5.440461233308895e-11
+  },
+  "sector_decomposition_error": 6.206335383118183e-17,
+  "z_rotation_Ising_commutator_norm": 0.0,
+  "new_optimization_runs": 0
+}

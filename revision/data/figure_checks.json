@@ -1,0 +1,252 @@
+{
+  "fig2": {
+    "source_sha256": "a09d9f9d112d8f3eca6b9a82400fce56c8cc840e9afafc552f1b020ad7fbfccb",
+    "output": "outputs/NJP-referee2-comment3-draft/figures/SMF3_proposed.pdf",
+    "black_legend": "J=0",
+    "black_curve": "C=1/T^2",
+    "curve_node_residual_pdf_units": 9.147121886599052e-07,
+    "changes": [
+      "black curve and its legend sample dashed (6,4)",
+      "black curve drawn above colored curves, below data markers"
+    ],
+    "all_path_coordinates_preserved": true,
+    "all_marker_forms_and_positions_preserved": true,
+    "colored_curves_unchanged": true,
+    "marker_count": 20,
+    "circle_count": 15,
+    "cross_count": 5,
+    "cross_coupling": 0.1,
+    "points": [
+      {
+        "J": 0.01,
+        "symbol": "circle",
+        "T": 2.0,
+        "x_pdf": 108.58,
+        "y_pdf": 213.2694098885,
+        "C_from_plot": 0.2501000429327326
+      },
+      {
+        "J": 0.01,
+        "symbol": "circle",
+        "T": 4.0,
+        "x_pdf": 186.34,
+        "y_pdf": 153.2487524458,
+        "C_from_plot": 0.06260013852045423
+      },
+      {
+        "J": 0.01,
+        "symbol": "circle",
+        "T": 6.0,
+        "x_pdf": 264.1,
+        "y_pdf": 118.19528980839999,
+        "C_from_plot": 0.02787807669731534
+      },
+      {
+        "J": 0.01,
+        "symbol": "circle",
+        "T": 8.0,
+        "x_pdf": 341.86,
+        "y_pdf": 93.38457896909999,
+        "C_from_plot": 0.015725524308652608
+      },
+      {
+        "J": 0.01,
+        "symbol": "circle",
+        "T": 10.0,
+        "x_pdf": 419.62,
+        "y_pdf": 74.20227542699999,
+        "C_from_plot": 0.010100815327327402
+      },
+      {
+        "J": 0.1,
+        "symbol": "circle",
+        "T": 2.0,
+        "x_pdf": 108.58,
+        "y_pdf": 215.0063212171,
+        "C_from_plot": 0.2603283242295487
+      },
+      {
+        "J": 0.1,
+        "symbol": "circle",
+        "T": 4.0,
+        "x_pdf": 186.34,
+        "y_pdf": 155.47227229220002,
+        "C_from_plot": 0.06589611851101168
+      },
+      {
+        "J": 0.1,
+        "symbol": "circle",
+        "T": 6.0,
+        "x_pdf": 264.1,
+        "y_pdf": 122.71127200880002,
+        "C_from_plot": 0.030940180514407545
+      },
+      {
+        "J": 0.1,
+        "symbol": "circle",
+        "T": 8.0,
+        "x_pdf": 341.86,
+        "y_pdf": 101.56580244470003,
+        "C_from_plot": 0.018993233863419032
+      },
+      {
+        "J": 0.1,
+        "symbol": "circle",
+        "T": 10.0,
+        "x_pdf": 419.62,
+        "y_pdf": 86.74780018420003,
+        "C_from_plot": 0.01349242684313146
+      },
+      {
+        "J": 0.2,
+        "symbol": "circle",
+        "T": 2.0,
+        "x_pdf": 108.58,
+        "y_pdf": 220.5257340974,
+        "C_from_plot": 0.2956909488838242
+      },
+      {
+        "J": 0.2,
+        "symbol": "circle",
+        "T": 4.0,
+        "x_pdf": 186.34,
+        "y_pdf": 160.8357532541,
+        "C_from_plot": 0.07457850320620493
+      },
+      {
+        "J": 0.2,
+        "symbol": "circle",
+        "T": 6.0,
+        "x_pdf": 264.1,
+        "y_pdf": 135.7953981192,
+        "C_from_plot": 0.04184604806901444
+      },
+      {
+        "J": 0.2,
+        "symbol": "circle",
+        "T": 8.0,
+        "x_pdf": 341.86,
+        "y_pdf": 126.7933085497,
+        "C_from_plot": 0.033996467411352725
+      },
+      {
+        "J": 0.2,
+        "symbol": "circle",
+        "T": 10.0,
+        "x_pdf": 419.62,
+        "y_pdf": 114.6598302711,
+        "C_from_plot": 0.025693883997472838
+      },
+      {
+        "J": 0.1,
+        "symbol": "cross",
+        "T": 2.0,
+        "x_pdf": 108.58,
+        "y_pdf": 213.7337910985,
+        "C_from_plot": 0.25279465276796004
+      },
+      {
+        "J": 0.1,
+        "symbol": "cross",
+        "T": 4.0,
+        "x_pdf": 186.34,
+        "y_pdf": 157.1437142008,
+        "C_from_plot": 0.06848750474144129
+      },
+      {
+        "J": 0.1,
+        "symbol": "cross",
+        "T": 6.0,
+        "x_pdf": 264.1,
+        "y_pdf": 135.2184033095,
+        "C_from_plot": 0.041292549455592124
+      },
+      {
+        "J": 0.1,
+        "symbol": "cross",
+        "T": 8.0,
+        "x_pdf": 341.86,
+        "y_pdf": 110.12879065119999,
+        "C_from_plot": 0.023142955277986255
+      },
+      {
+        "J": 0.1,
+        "symbol": "cross",
+        "T": 10.0,
+        "x_pdf": 419.62,
+        "y_pdf": 92.3803882487,
+        "C_from_plot": 0.015365296439497035
+      }
+    ]
+  },
+  "fig3": {
+    "0.1": {
+      "max_relative_difference_vs_archive": 6.694178544819351e-11,
+      "min": 0.0015733425564232954,
+      "max": 156.2229632540353
+    },
+    "1": {
+      "max_relative_difference_vs_archive": 3.328453068718318e-10,
+      "min": 0.12545072259653445,
+      "max": 106124.03371471085
+    },
+    "10": {
+      "max_relative_difference_vs_archive": 2.51005516371805e-09,
+      "min": 53.30705670906414,
+      "max": 3795791.515101273
+    }
+  },
+  "fig4": {
+    "figures": [
+      {
+        "source_sha256": "c01b2236fe99c002536cae89ab24153bce60aa2096c2844839ef858323ce693e",
+        "output": "6aeddf35c3326fe88bd027b9/revision/referee1-comment4/figures/CPL3v2_revised.pdf",
+        "operations_changed": [
+          2253,
+          2258,
+          2273,
+          5044,
+          5049,
+          5064
+        ],
+        "other_original_operations_unchanged": true,
+        "rings": [
+          [
+            105.048,
+            138.9923919585396
+          ],
+          [
+            799.821,
+            83.52469396483043
+          ]
+        ],
+        "serialized_operations_verified": true
+      },
+      {
+        "source_sha256": "86819b8fe796a0ea051b5302f0add2e3603e619b6e1b93b3e0d582c3e6ff12c2",
+        "output": "6aeddf35c3326fe88bd027b9/revision/referee1-comment4/figures/LPL3_revised.pdf",
+        "operations_changed": [
+          1514,
+          1516
+        ],
+        "other_original_operations_unchanged": true,
+        "rings": [
+          [
+            255.1,
+            83.26237546768814
+          ]
+        ],
+        "serialized_operations_verified": true
+      }
+    ],
+    "costs": {
+      "xy": 0.007381146093712924,
+      "xz": 0.12579446022513735,
+      "linear": 0.9539252320627789
+    },
+    "CPL_points_per_decade": 45.08397471284684,
+    "LPL_points_per_decade": 78.6856487562956,
+    "updated_points": 3,
+    "other_markers_and_curves_unchanged": true
+  }
+}
